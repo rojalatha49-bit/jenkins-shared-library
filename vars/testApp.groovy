@@ -1,1 +1,4 @@
-def call() { echo 'Testing the application using shared library' sh 'echo Test stage completed successfully' }
+def call() {
+echo 'Testing the application using shared library'
+sh 'echo "Test step executed successfully"'
+}
